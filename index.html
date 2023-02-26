@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="styles.css" type="text/css" rel="stylesheet">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!---Boxicons CDN LINK-->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+ <div class="container">
+  <nav>
+  <div class="navbar">
+    <!---Togglebar-->
+   
+    <div class="logo"><a href="#"><img src="./images/logo.svg" class="image"></a></div>
+    <div class="nav-links">
+      <div>
+        <img src="./images/icon-close-menu.svg" class="imagers">
+      </div>
+      <ul class="links">
+        <li><a href="#" class="features">Features</a>
+          <img src="./images/icon-arrow-down.svg" alt="arrow-image" class="htmlcss-imager" id="image">
+          <!----Let's add the submenu-->
+        
+          <ul class="htmlCss-fer-menu fer-menu">
+            <div class="flexa-container">
+              
+          
+              <li class="vic">
+              <div class="planning">
+                <img src="./images/icon-todo.svg" alt="todosvg" id="planningimage">
+                <p>Todo list</p>
+              </div>
+            
+              </li>
+              <!----the calendar one-->
+              <li class="vic">
+                <div class="plan">
+                <img src="./images/icon-calendar.svg" alt="calendarsvg" id="calendarimage">
+              
+                <p>Calendar</p>
+                </div>
+              </li>
+              <!---THe Reminder one-->
+              <li class="vic">
+                <div class="plani">
+                <img src="./images/icon-reminders.svg" alt="reminder-svg" id="reminderimage">
+                <p>Reminders</p>
+                </div>
+              </li>
+              <!---Planning-->
+              <li class="vic">
+                <div class="planii">
+                <img src="./images/icon-planning.svg" alt="planning-svg" id="planningimage">
+                <p>Planning</p>
+                </div>
+              </li>
+            </div>
+          </ul>
+
+         
+           </li>
+       
+        <li><a href="#" class="companies">Company</a>
+          <img src="./images/icon-arrow-down.svg" alt="arrowdown-image" class="js-imager" id="images">
+          <!---The submenu for the company-->
+          <ul class="htmlCss-sub-menu sub-menu">
+            <li><a href="#" class="history">History</a></li>
+            <li><a href="#" class="our">Our Team</a></li>
+            <li><a href="#" class="blog">Blog</a></li>
+        </ul>
+         
+            </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#" class="about">About</a></li>
+        <div class="flexar">
+          <div class="flex"> <li class="login">Login</li></div>
+        <div class="flexa"> <li class="register">Register</li></div>
+     
+        </div>
+      </ul>
+      
+    </div>
+    <img src="./images/icon-menu.svg" class="imagerss">
+  </div>
+  
+  </nav>
+ </div>
+ <!---text-->
+ <div class="big-container">
+  <div class="big1">
+    <h1>Make <br>remote work</h1>
+    <h2>Make remote work</h2>
+    <h3>Get your team in sync, no matter your <span class="location">location.</span> Streamline processes, 
+      create <span class="team">team rituals, and watch productivity soar.</span></h3>
+      <div class="buttondiv">
+        <button class="btn-primary"> Learn more</button>
+      </div>
+      <div class="picture-container">
+        <div>
+          <img src="./images/client-databiz.svg" class="databiz">
+        </div>
+        <div>
+          <img src="./images/client-audiophile.svg" class="audiophile">
+        </div>
+        <div>
+          <img src="./images/client-meet.svg" class="client">
+        </div>
+        <div >
+          <img src="./images/client-maker.svg" class="maker">
+        </div>
+      </div>
+  </div>
+  <div class="big2">
+    <div class="fer">
+      
+    </div>
+
+  </div>
+  
+ </div>
+  <div class="attribution" class="victor">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Olaniyi Victor</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
